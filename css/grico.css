@@ -1,0 +1,115 @@
+h1 {
+    color: rgb(45, 239, 68);
+    font-size: 60px;
+    text-align: center;
+}
+
+#name {
+    display: flex;
+    font-size: 30px;
+    margin: auto;
+}
+
+.you {
+    margin-left: 16%;
+    width: 50%;
+}
+
+.cpu {
+    width: 50%;
+    margin-right: %;
+    padding-right: 0%
+}
+
+.bothtefuda {
+    display: flex;
+    justify-content: space-between;
+}
+
+#playerstefuda {
+    margin-left: 10%;
+}
+
+.tefuda {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.tefuda img {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding: 0.3em 0.3em;
+    background-color: #0065fc; /* 背景色 */
+    box-shadow: 0 1px 0 #0015ff; /* 影の太さ・色 */
+    border-radius: 60px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none; /* 文字の下線を消す */
+}
+
+/* .tefuda:hover {
+    box-shadow: none;
+    transform: translateY(5px);
+} */
+
+.tefuda:active {
+    box-shadow: none;
+    transform: translateY(5px);
+}
+
+
+
+#cputefuda {
+    margin-right: 10%;
+}
+
+.masu {
+    height: 40px;
+}
+
+#pc_hands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 50px;
+}
+
+#start {
+    color: #00f77b;
+    font-weight: bold;
+}
+
+#masu50 {
+    color: aqua;
+    font-weight: bold;
+}
+
+table {
+    width: 90%;
+    height: 720px;
+    border: 1px solid rgb(89, 3, 249);
+    margin: auto;
+    position: relative;
+    table-layout: fixed;
+}
+
+.smallbox{
+    text-align: center;
+    font-size: 20px;
+}
+
+.minus {
+    background-color: rgb(0, 213, 255);
+}
+
+.plus {
+    background-color: rgb(246, 246, 27);
+}
+
+.start {
+    background-color: rgb(255, 0, 128);
+}
+
